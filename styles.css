@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    font-size: 1.25rem;
+}
+
+.tab-container {
+    width: 992px;
+    margin: 0 auto;
+}
+
+.tab-header {
+    display: flex;
+}
+
+.btn {
+    position: relative;
+    top: 1px;
+    width: 33.3%;
+    color: #fff;
+    background-color: rgba(50, 26, 188, 0.964);
+    border: 1px solid rgb(147, 147, 147);
+    outline: none;
+    padding: 0.5rem 2rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+.btn.active {
+    border-bottom-color: rgba(94, 74, 210, 0.964);
+    background-color: rgba(94, 74, 210, 0.964);
+}
+
+.tab-body {
+    padding: 0.5rem 1rem;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
